@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainBox" focusTraversable="true" onKeyPressed="#onKeyPresed" prefHeight="480.0" prefWidth="320.0" stylesheets="@Lab8-view.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ooplqb8.Lab8Controller">
+   <children>
+      <Label fx:id="screen" alignment="BOTTOM_RIGHT" focusTraversable="false" layoutX="56.0" layoutY="107.0" onKeyPressed="#onKeyPresed" prefHeight="39.0" prefWidth="202.0" stylesheets="@Lab8-view.css" textFill="#2c2828">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <GridPane alignment="CENTER" focusTraversable="true" layoutX="5.0" layoutY="187.0" prefHeight="285.0" prefWidth="307.0">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="button1" fx:id="oneBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="1" textFill="#a19a9a" userData="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="twoBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="2" textFill="#a19a9a" userData="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="threeBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="3" textFill="#a19a9a" userData="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="fourBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="4" textFill="#a19a9a" userData="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="fiveBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="5" textFill="#a19a9a" userData="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="sixBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="6" textFill="#a19a9a" userData="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="sevenBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="7" textFill="#a19a9a" userData="7" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="eightBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="8" textFill="#a19a9a" userData="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="nineBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="9" textFill="#a19a9a" userData="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="divBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="/" textFill="#a19a9a" userData="/" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="mulBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="x" textFill="#a19a9a" userData="x" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="sqrtBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="√" textFill="#a19a9a" userData="√" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="powBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="^" textFill="#a19a9a" userData="^" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="subBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="-" textFill="#a19a9a" userData="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button2" fx:id="acBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="AC" textFill="#a19a9a" userData="C">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="getBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="=" textFill="#a19a9a" userData="=" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="dotBt1" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="." textFill="#a19a9a" userData="." GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="nullBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="0" textFill="#a19a9a" userData="0" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button1" fx:id="addBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="+" textFill="#a19a9a" userData="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button3" fx:id="reverseBt" focusTraversable="false" mnemonicParsing="false" onAction="#onClickButton" prefHeight="45.0" prefWidth="65.0" stylesheets="@Lab8-view.css" text="OFF" textFill="#a19a9a" userData="!" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</Pane>
